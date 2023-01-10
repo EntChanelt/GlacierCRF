@@ -9,7 +9,7 @@ This github can be used as a standalone project (if you have the [pretrained net
 
 Every file has a `if __name__ == "__main__"` function on the bottom to show how to use the functions/classes. You might still need to adjust some parameter/paths/etc
 
-This project is designed to work only with the [CaFFe dataset](https://doi.pangaea.de/10.1594/PANGAEA.940950) which should be placed in an additional directory (ex.: `data_raw`).
+This project is designed to work only with the [CaFFe dataset](https://doi.pangaea.de/10.1594/PANGAEA.940950) which should be placed in an additional directory (ex.: `data_raw`) and then preprocessed as described in Gourmelon's baseline.
 
 ---
 ### How can I use my own dataset?
@@ -22,7 +22,8 @@ If you have your own dataset consisting of
 you can follow these steps to use the CRF with your own data.
 
 - Ignore the `dataset_preparation.py` file
-- Change `__build_batch()` in `CRF2D.py` so it loads batches with your own data into the `final_batch` dictionarie
+- Change `__build_batch()` in `CRF2D.py` so it loads batches with your own data into the `final_batch` dictionary
 - Remove any post-processing in the `main` function (unless you want the same post-processing), the output from the CRF is probably all you will want
 
 This should be all that is needed and you should be able to use the CRF with your own data.
+---
