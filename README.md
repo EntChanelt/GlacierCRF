@@ -26,4 +26,5 @@ you can follow these steps to use the CRF with your own data.
 - Remove any post-processing in the `main` function (unless you want the same post-processing), the output from the CRF is probably all you will want
 
 This should be all that is needed and you should be able to use the CRF with your own data.
+
 ---
