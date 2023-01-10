@@ -22,7 +22,7 @@ If you have your own dataset consisting of
 you can follow these steps to use the CRF with your own data.
 
 - Ignore the `dataset_preparation.py` file
-- Change `__build_batch()` in `CRF2D.py` so it loads batches with your own data into the `final_batch` directory
+- Change `__build_batch()` in `CRF2D.py` so it loads batches with your own data into the `final_batch` dictionarie
 - Remove any post-processing in the `main` function (unless you want the same post-processing), the output from the CRF is probably all you will want
 
 This should be all that is needed and you should be able to use the CRF with your own data.
