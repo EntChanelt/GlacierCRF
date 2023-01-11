@@ -1,0 +1,16 @@
+opencv-python==4.5.1.48
+torch==1.10.0
+optuna==2.8.0
+numpy==1.21.4
+matplotlib==3.3.3
+Pillow==8.2.0
+torchmetrics==0.3.1
+scipy==1.6.0
+einops==0.3.0
+torchsummary==1.5.1
+imageio==2.9.0
+scikit-image==0.18.1
+tormentor==0.1.2
+torchvision==0.11.1
+scikit-learn==0.24.1
+SimpleCRF==0.2.1.1
