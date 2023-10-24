@@ -1,7 +1,7 @@
 # GlacierCRF
 Using Conditional Random Fields to post process neural network predictions using the predictions and the original inputs
 
-The original paper can be found here: (as soon as it is published)
+The original paper can be found [here](https://ieeexplore.ieee.org/document/10282915)
 
 ---
 ### How to use this according to the paper?
